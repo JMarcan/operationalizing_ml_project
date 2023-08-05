@@ -6,12 +6,12 @@ for production deployment.<br>
 
 This project was part of my Machine Learning Nanodegree at Udacity.<br>
 
-First, we train a model on Sagemaker utilizing multi-instance training in Sagemaker notebook.<br>
-Second, we adjust the Sagemaker notebook to perform training and deployment on EC2.<br>
-Third, we provide a lambda function as a proxy we can call from the internet<br>
+- First, we train a model on Sagemaker utilizing multi-instance training in Sagemaker notebook.<br>
+- Second, we adjust the Sagemaker notebook to perform training and deployment on EC2.<br>
+- Third, we provide a lambda function as a proxy we can call from the internet<br>
 to reach the private sagemaker inference endpoint and get back the prediction.<br>
 together with configuring auto-scaling for deployed endpoint and concurrency of the lambda function.<br>
-Lastly, we test the end to end inference by calling the lambda endpoint.<br>
+- Lastly, we test the end to end inference by calling the lambda endpoint.<br>
 
 # Decision log
 ## SageMaker Instance
