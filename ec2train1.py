@@ -133,7 +133,7 @@ def create_data_loaders(data, batch_size):
 
 batch_size=2
 learning_rate=1e-4
-train_loader, test_loader, validation_loader=create_data_loaders('dogImages',batch_size)
+train_loader, test_loader, validation_loader=create_data_loaders('dogImages/',batch_size)
 model=net()
 
 criterion = nn.CrossEntropyLoss()
